@@ -1,0 +1,32 @@
+{
+   "name": "demo-stripe-server",
+   "version": "1.0.0",
+   "description": "",
+   "main": "index.js",
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "dev": "nodemon src/main.ts",
+      "start": "ts-node src/index.ts",
+      "build": "tsc",
+      "typeorm": "typeorm-ts-node-commonjs"
+   },
+   "author": "",
+   "license": "ISC",
+   "dependencies": {
+      "body-parser": "^1.20.0",
+      "cors": "^2.8.5",
+      "dotenv": "^16.0.3",
+      "express": "^4.18.1",
+      "nodemon": "^2.0.20",
+      "pg": "^8.4.0",
+      "reflect-metadata": "^0.1.13",
+      "stripe": "^10.12.0",
+      "typeorm": "0.3.10"
+   },
+   "devDependencies": {
+      "@types/express": "^4.17.14",
+      "@types/node": "^16.11.10",
+      "ts-node": "10.7.0",
+      "typescript": "4.5.2"
+   }
+}
